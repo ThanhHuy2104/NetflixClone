@@ -1,0 +1,60 @@
+.hero{
+    position: relative;
+}
+
+.bannerImg{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+
+}
+
+.heroCaption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.captionImg{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.heroBtns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.heroBtns .btn img{
+    width: 25px;
+}
+
+.heroBtns .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heroBtns .btn.darkBtn{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+
+.heroBtns .btn:hover{
+    background-color: #ffffffbf;
+}
+
+.heroBtns .btn.darkBtn:hover{
+    background-color: #6d6d6e66;
+}
