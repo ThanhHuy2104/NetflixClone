@@ -5,7 +5,6 @@
 .bannerImg{
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 75%);
-
 }
 
 .heroCaption{
@@ -56,4 +55,8 @@
 
 .heroBtns .btn.darkBtn:hover{
     background-color: #6d6d6e66;
+}
+
+.moreCards{
+    padding-left: 6%;
 }
