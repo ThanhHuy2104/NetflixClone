@@ -28,16 +28,18 @@ const Home = () => {
               More Info
             </button>
           </div>
-          <TitleCards/>
+          <div className={styles.hidden}>
+            <TitleCards></TitleCards>
+          </div>
         </div>
       </div>
       <div className={styles.moreCards}>
-        <TitleCards title={"Blockbuster Movies"}/>
-        <TitleCards title={"Only on Netflix"}/>
-        <TitleCards title={"Upcoming"}/>
-        <TitleCards title={"Top Pics for you"}/>
+        <TitleCards title={"Blockbuster Movies"} category={'top_rated'} />
+        <TitleCards title={"Only on Netflix"} category={'popular'} />
+        <TitleCards title={"Upcoming"} category={'upcoming'} />
+        <TitleCards title={"Top Pics for you"} category={'now_playing'} />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
